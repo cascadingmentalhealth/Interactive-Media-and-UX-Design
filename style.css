@@ -1,3 +1,5 @@
+/* ALL: Navigation bar*/
+
 .navbar {
     overflow: hidden;
     background-color:#f5d90a;
@@ -22,12 +24,16 @@
 .navbar .nonactive:hover {
     background-color:#e0b60b;
     color:#000;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
-.navbar .active a{
-	background-color:#f5d90a;
-    color: #000;	
+.active {
+    background-color:#e0b60b;
 }
+
+/* ALL: Dropdown section for "courses"*/
+
 .dropdown {
     float: center;
     overflow: hidden;
@@ -47,6 +53,8 @@
 
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:#e0b60b;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -68,13 +76,160 @@
 }
 
 .dropdown-content a:hover {
-    background-color:#e0b60b;
+    background-color:#f7ec97;
+    cursor: pointer;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.active {
-    background-color:#e0b60b;
+/* HOME: Text about the company*/
+
+.homebody {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homebody h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:#f5d90a;
+}
+
+.homecontainer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align:justify;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/* HOME: Image with button linked to enrolment page */
+
+.homeimage {
+    position: relative;
+}
+
+.homeimage img{
+    float: left;
+    width: 37%;
+    object-fit: cover;
+	transition: transform 1.3s;
+	transition-timing-function: ease-out;
+	height: 100%;
+}
+
+.homeimage:hover img {
+	-ms-transform: scale(1.02); /* IE 9 */
+	-webkit-transform: scale(1.02); /* Safari 3-8 */
+	transform: scale(1.02);
+}
+
+.homebtn {
+    position: absolute;
+    margin-top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#f5d90a;
+    border: none;
+    color: black;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.homebtn:hover {
+    background-color: #f7ec97;
+    transition: 0.6s ease;
+}
+
+/* HOME: interactive statistics*/
+
+.intstat {
+    padding: 60px;
+    background-color:#f7ec97;
+}
+
+/* HOME: Information about company */
+
+* {
+    box-sizing: border-box;
+}
+
+.homesection {
+    background-color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.homesection h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color:#f5d90a;
+    text-align:left;
+    margin-left: 43%;
+}
+
+.homesection1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:#f5d90a;
+    text-align:left;
+    margin-left: 43%;
+    margin-right: 6%;
+    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
+}
+
+.homesection1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align:left;
+    margin-left: 43%;
+    margin-right: 6%;
+}
+
+/* ALL: Footer */
+
+footer {
+    background-color:rgb(26, 26, 26);
+    padding-right: 40%;
+    padding-left:40%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    display:inline-table;
+    float: left;
+}
+
+footer h1 {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#f7ec97;
+}
+
+footer h2 {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#f7ec97;
+}
+
+footer h3 {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#f7ec97;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+    float: right;
 }
