@@ -1,58 +1,90 @@
 /* ALL: Navigation bar*/
 
-.navbar {
-    overflow: hidden;
-    background-color:#f5d90a;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.navlogo {
-    float: left;
-    height: 100px;
-    padding-left: 10%;
-}
-
-.navbar a {
-    float: right;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 42px 16px;
+li, a, button {
+    font-size: 20px;
+    color:#f5d90a;
+    padding: 12px 28px;
     text-decoration: none;
 }
 
-.navbar .nonactive:hover {
-    background-color:#e0b60b;
-    color:#000;
-    transition: 0.3s ease;
-    cursor: pointer;
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px 10%;
+    background-color:rgb(26, 26, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.active {
-    background-color:#e0b60b;
+.navbar {
+    display: inline-block;
+}
+
+.navlogo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 150px;
+    margin-top: -8%;
+    padding-bottom: 30px;
+}
+
+.navlinks {
+    list-style:none;
+    align-items: center;
+    display: flex;
+    padding-left: 170%;
+    margin-top: -26%;
+}
+
+.navlinks li {
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3 ease 0s;
+    border-radius: 50px;
+    background-color: black;
+    color:#f5d90a;
+}
+
+.navlinks li a.active {
+    transition: all 0.3 ease 0s;
+    border-radius: 50px;
+    background-color:#f5d90a;
+    color:black;
+}
+
+.navlinks li a:hover {
+    transition: all 0.3 ease 0s;
+    color:black;
+    background-color:#f5d90a;
+}
+
+button {
+    background-color:black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.6s ease 0s;
+}
+
+.nonactive a:hover {
+    color:black;
+    background-color:#f5d90a;
+    transition: ease 0.6s;
 }
 
 /* ALL: Dropdown section for "courses"*/
 
-.dropdown {
-    float: center;
-    overflow: hidden;
-    float:right;
-}
-
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
+.dropdown:hover .dropbtn {
+    background-color:#f5d90a;
     color: black;
-    padding: 42px 10px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:#e0b60b;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -77,6 +109,7 @@
 
 .dropdown-content a:hover {
     background-color:#f7ec97;
+    color: black;
     cursor: pointer;
 }
 
@@ -88,8 +121,8 @@
 
 .homebody {
     background-color: whitesmoke;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .homebody h1{
@@ -97,14 +130,15 @@
     font-size: 50px;
     text-align: center;
     color:#f5d90a;
+    padding-bottom: 25px;
 }
 
 .homecontainer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align:justify;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 /* HOME: Image with button linked to enrolment page */
@@ -186,7 +220,6 @@
     text-align:left;
     margin-left: 43%;
     margin-right: 6%;
-    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.2);
 }
 
 .homesection1 p {
