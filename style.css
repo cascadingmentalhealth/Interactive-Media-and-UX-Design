@@ -1,5 +1,7 @@
 /* ALL: Navigation bar*/
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +21,7 @@ header {
     align-items:center;
     padding: 30px 10%;
     background-color:rgb(26, 26, 26);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Rubik", sans-serif;
 }
 
 .navbar {
@@ -126,7 +128,7 @@ button {
 }
 
 .homebody h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Rubik", sans-serif;
     font-size: 50px;
     text-align: center;
     color:#f5d90a;
@@ -134,7 +136,7 @@ button {
 }
 
 .homecontainer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 15px;
     text-align:justify;
     margin-left: 13%;
@@ -175,7 +177,7 @@ button {
     text-align: center;
     text-decoration: none;
     float: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 20px;
     cursor: pointer;
     border-radius: 5px;
@@ -195,10 +197,6 @@ button {
 
 /* HOME: Information about company */
 
-* {
-    box-sizing: border-box;
-}
-
 .homesection {
     background-color: whitesmoke;
     padding-top: 25px;
@@ -206,15 +204,17 @@ button {
 }
 
 .homesection h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 40px;
     color:#f5d90a;
     text-align:left;
     margin-left: 43%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .homesection1 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 20px;
     color:#f5d90a;
     text-align:left;
@@ -223,7 +223,7 @@ button {
 }
 
 .homesection1 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 15px;
     color: black;
     text-align:left;
@@ -245,19 +245,19 @@ footer {
 
 footer h1 {
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     color:#f7ec97;
 }
 
 footer h2 {
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     color:#f7ec97;
 }
 
 footer h3 {
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Rubik", sans-serif;
     color:#f7ec97;
 }
 
