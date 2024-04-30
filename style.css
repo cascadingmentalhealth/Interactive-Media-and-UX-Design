@@ -24,6 +24,10 @@ header {
     font-family:"Rubik", sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .navbar {
     display: inline-block;
 }
@@ -104,6 +108,12 @@ button {
     z-index: 1;
 }
 
+.dropdown-content a.active {
+    transition: ease 0.6;
+    background-color:#f7ec97;
+    color:black;
+}
+
 .dropdown-content a {
     float: none;
     color: black;
@@ -122,6 +132,54 @@ button {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* ALL: Footer */
+
+footer {
+    background-color:rgb(26, 26, 26);
+    padding-right: 50%;
+    padding-left:10%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    display:flex;
+    float: left;
+}
+
+.foottext {
+    display:list-item;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer h1 {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    color:#f7ec97;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+footer h2 {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    color:#f7ec97;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+footer h3 {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    color:#f7ec97;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
 
 /* HOME: Text about the company*/
 
@@ -249,49 +307,90 @@ iframe:hover {
     margin-right: 6%;
 }
 
-/* ALL: Footer */
+/* ENGLISH: body */
 
-footer {
-    background-color:rgb(26, 26, 26);
-    padding-right: 50%;
-    padding-left:10%;
-    padding-top: 1%;
-    padding-bottom:1%;
-    display:flex;
+.engbody h1 {
+    font-family: "Rubik", sans-serif;
+    color:#f5d90a;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+.engrow1 {
+    margin-left: 25%;
+    margin-right: -15%;
+    padding: 20px;
+}
+
+.engcolumn1 {
     float: left;
+    width: 50%;
+}
+  
+.engrow1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.foottext {
-    display:list-item;
-    list-style: none;
-    text-decoration: none;
-}
-
-footer h1 {
-    font-size: 12px;
+.engcolumn1 h1 {
+    text-align: center;
     font-family: "Rubik", sans-serif;
-    color:#f7ec97;
-    margin-top: 10px;
-    margin-bottom:10px;
+    font-size: 35px;
+    color: black;
 }
 
-footer h2 {
-    font-size: 12px;
+.engcolumn1 p {
     font-family: "Rubik", sans-serif;
-    color:#f7ec97;
-    margin-top: 10px;
-    margin-bottom:10px;
+    font-size: 20px;
+    color: black;
+    margin-right: 8%;
+    text-align: right;
+    padding: 20px;
 }
 
-footer h3 {
-    font-size: 12px;
+.engcolumn1 img {
+    margin-top: -3%;
+    width: 50%;
+}
+
+.engrow2 {
+    margin-left: 25%;
+    margin-right: -15%;
+}
+
+.engcolumn2 {
+    float: left;
+    width: 50%;
+}
+  
+.engrow2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.engcolumn2 h1 {
+    text-align: center;
     font-family: "Rubik", sans-serif;
-    color:#f7ec97;
-    margin-top: 10px;
-    margin-bottom:10px;
+    font-size: 35px;
+    color: black;
 }
 
-footer img {
-    width: 40px;
-    height: 40px;
+.engcolumn2 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 20%;
+    text-align: left;
+    padding: 20px;
+}
+
+.engcolumn2 img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -135%;
+    margin-top: -3%;
+    width: 50%;
 }
