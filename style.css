@@ -229,7 +229,6 @@ footer img {
     min-height: 90vh;
     background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("home2.png");
     background-position:top;
-    background-attachment: fixed;
     background-size:contain;
 }
 
@@ -360,12 +359,12 @@ iframe:hover {
     color:#f5d90a;
     font-size: 340%;
     text-align: center;
-    margin-top: -19%;
+    margin-top: -30%;
 }
 
 .engbtn {
     position:absolute;
-    margin-left: 5%;
+    margin-left: 5.2%;
     margin-top: 10%;
     background-color: none;
     border: 2px solid #f5d90a;
@@ -529,6 +528,162 @@ iframe:hover {
 }
 
 .engt3 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+
+/* MATH: body */
+
+.matbody {
+    padding-left: 39%;
+    padding-right: 38%;
+    display: inline-flex;
+    align-items: center;
+    min-height: 75vh;
+    background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("mathead.png");
+    background-position:top;
+    background-size:cover;
+}
+
+.matbody h1 {
+    font-family: "Rubik", sans-serif;
+    color:#f5d90a;
+    font-size: 340%;
+    text-align: center;
+    margin-top: -30%;
+}
+
+.matbtn {
+    position:absolute;
+    margin-left: 5.2%;
+    margin-top: 10%;
+    background-color: none;
+    border: 2px solid #f5d90a;
+    color:#f5d90a;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 130%;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(185, 154, 0, 0.2);
+}
+
+.matbtn:hover {
+    background-color:#f5d90a;
+    border: none;
+    color: black;
+    box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
+    transition: ease 0.6s;
+}
+
+/* MAT: information */
+
+.matinfo {
+    background-color: #f7ec97;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.matintial h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 300%;
+}
+
+.matintial p {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: justify;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* MAT: meet the tutors */
+
+.mattutor {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.mattinfo {
+    font-family: "Rubik", sans-serif;
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.matt1 {
+    margin-left: 15%;
+    margin-right: 64.25%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.matt1:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.matt1 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.matt2 {
+    margin-left: 40%;
+    margin-right: 39.3%;
+    margin-top: -26.3%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.matt2:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.matt2 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.matt3 {
+    margin-top: -26.3%;
+    margin-left: 65%;
+    margin-right: 14.26%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.matt3:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.matt3 h3 {
     font-family: "Rubik", sans-serif;
     color:black;
     font-size: 170%;
