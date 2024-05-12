@@ -1112,3 +1112,194 @@ iframe:hover {
     padding-top:3%;
     padding-bottom: 3%;
 }
+
+/* CHEMISTRY: body */
+
+.chembody {
+    padding-left: 41%;
+    padding-right: 41%;
+    display: inline-flex;
+    align-items: center;
+    min-height: 75vh;
+    background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("chemhead.png");
+    background-position:top;
+    background-size:cover;
+}
+
+.chembody h1 {
+    font-family: "Rubik", sans-serif;
+    color:#f5d90a;
+    font-size: 340%;
+    text-align: center;
+    margin-top: -30%;
+}
+
+.chembtn {
+    position:absolute;
+    margin-left: 2.8%;
+    margin-top: 10%;
+    background-color: none;
+    border: 2px solid #f5d90a;
+    color:#f5d90a;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 130%;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(185, 154, 0, 0.2);
+}
+
+.chembtn:hover {
+    background-color:#f5d90a;
+    border: none;
+    color: black;
+    box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
+    transition: ease 0.6s;
+}
+
+/* CHEM: information */
+
+.cheminfo {
+    background-color: #f7ec97;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.chemintial h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 300%;
+}
+
+.chemintial p {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: justify;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* CHEM: timetable */
+
+.chemschedule {
+    position: relative;
+    margin-top: 3%;
+}
+
+.chemschedule h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 230%;
+    text-align:center;
+    padding-bottom: 3%;
+}
+
+.chemschedule img {
+    width: 40%;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.28);
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.chem11 {
+    margin-left: 10%;
+}
+
+.chem12 {
+    margin-left: 1%;
+}
+
+.chemschedule img:hover {
+    box-shadow: 0px 8px 40px 0px rgba(0,0,0,0.35);
+    transition: 0.3s ease;
+}
+
+/* CHEM: meet the tutors */
+
+.chemtutor {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.chemtinfo {
+    font-family: "Rubik", sans-serif;
+    color: black;
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.chemt1 {
+    margin-left: 15%;
+    margin-right: 64.29%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.chemt1:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.chemt1 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.chemt2 {
+    margin-left: 40%;
+    margin-right: 39.2%;
+    margin-top: -26.5%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.chemt2:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.chemt2 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.chemt3 {
+    margin-top: -26.2%;
+    margin-left: 65%;
+    margin-right: 14.32%;
+    background-color:#f7ec97;
+    margin-bottom: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.chemt3:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+    transition: ease 0.3s;
+}
+
+.chemt3 h3 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 170%;
+    text-align: center;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
