@@ -1303,3 +1303,103 @@ iframe:hover {
     padding-top:3%;
     padding-bottom: 3%;
 }
+
+/* ENROLMENT: body */
+
+.enrolbody {
+    padding-left: 41%;
+    padding-right: 40.82%;
+    display: inline-flex;
+    align-items: center;
+    min-height: 75vh;
+    background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("enrolhead.png");
+    background-position:top;
+    background-size:cover;
+}
+
+.enrolbody h1 {
+    font-family: "Rubik", sans-serif;
+    color:#f5d90a;
+    font-size: 340%;
+    text-align: center;
+    margin-top: -30%;
+}
+
+.enrolbtn {
+    position:absolute;
+    margin-left: 2.8%;
+    margin-top: 10%;
+    background-color: none;
+    border: 2px solid #f5d90a;
+    color:#f5d90a;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 130%;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(185, 154, 0, 0.2);
+}
+
+.enrolbtn:hover {
+    background-color:#f5d90a;
+    border: none;
+    color: black;
+    box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
+    transition: ease 0.6s;
+}
+
+/* ENROL: information */
+
+.enrolinfo {
+    background-color: #f7ec97;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.enrolintial h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 300%;
+}
+
+.enrolintial p {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: justify;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ENROL: registration form */
+
+.enrolcontainer {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%; 
+    max-width: 400px; 
+    padding: 5%; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.enrolcontainter h2 {
+    text-align: center;
+  }
+  
+.form-group {
+    margin-bottom: 5%; 
+}
+  
+label {
+    display: block;
+    margin-bottom: 2%;
+}
