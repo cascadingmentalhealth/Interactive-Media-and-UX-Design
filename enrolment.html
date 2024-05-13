@@ -42,7 +42,8 @@
     </div>
 </div>
 
-<div class="enrolcontainter">
+<div class="enrolmain">
+<div class="enrolcontainer">
     <h2> Registration </h2>
     <form action="#">
         <div class="enrolform">
@@ -68,7 +69,32 @@
                 <option value="12">Year 12</option>
             </select>
         </div>
+
+        <div class="enrolform">
+            <label for="subject"> Subject </label>
+            <select id="subject" name="subject">
+                <option value="stdeng"> Standard English </option>
+                <option value="advdeng"> Advanced English </option>
+                <option value="exteng"> Extension English </option>
+                <option value="stdmat"> Standard Mathematics </option>
+                <option value="advmat"> Advanced Mathemtaics </option>
+                <option value="extmat"> Extension Mathematics </option>
+                <option value="physics"> Physics </option>
+                <option value="biology"> Biology </option>
+                <option value="chemistry"> Chemistry </option>
+                <option value="economics"> Economics </option>
+            </select>
+        </div>
+
+        <div class="enrolform">
+            <label for="referral"> Referral </label>
+            <input type="text" id="referral" placeholder="E.g Samiqa Rashid, Year 10 Macquarie Fields" name="referral">
+        </div>
+
+        <button class="enrolbutton" type="submit">Submit</button>
+
     </form>
+</div>
 </div>
 
 <footer>

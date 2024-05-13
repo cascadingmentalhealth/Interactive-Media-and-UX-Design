@@ -170,37 +170,25 @@ button {
 
 footer {
     background-color:rgb(26, 26, 26);
-    padding-left:10%;
-    padding-top: 1%;
-    padding-bottom:1%;
-    position:absolute;
+    padding: 1% 10%;
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display:flex;
+    justify-content: space-between;
+    align-items: center;
     float: left;
 }
 
 .foottext {
-    display:list-item;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: #f7ec97;
     text-decoration: none;
 }
 
-footer h1 {
-    font-size: 12px;
-    font-family: "Rubik", sans-serif;
-    color:#f7ec97;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-footer h2 {
-    font-size: 12px;
-    font-family: "Rubik", sans-serif;
-    color:#f7ec97;
-    margin-top: 10px;
-    margin-bottom:10px;
-}
-
-footer h3 {
+footer h1, footer h2, footer h3 {
     font-size: 12px;
     font-family: "Rubik", sans-serif;
     color:#f7ec97;
@@ -211,6 +199,7 @@ footer h3 {
 footer img {
     width: 40px;
     height: 40px;
+    margin-left: 10px;
 }
 
 
@@ -1376,30 +1365,59 @@ iframe:hover {
 
 /* ENROL: registration form */
 
-.enrolcontainer {
-    font-family: "Rubik", sans-serif;
+.enrolmain {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 80%; 
-    max-width: 400px; 
-    padding: 5%; 
-    border: 1px solid #ccc;
+    height: 70vh;
+}
+
+.enrolcontainer {
+    font-family: "Rubik", sans-serif;
+    margin-top: 30%;
+    width: 50%; 
+    padding: 5%;
+    background-color:#f8f5da; 
+    border: 3px solid #f5d90a;
     border-radius: 5px;
 }
 
-.enrolcontainter h2 {
+.enrolcontainer h2 {
     text-align: center;
-  }
+}
   
-.form-group {
+.enrolform {
     margin-bottom: 5%; 
 }
   
 label {
     display: block;
     margin-bottom: 2%;
+    font-family: "Rubik", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+  select {
+    width: 100%;
+    padding: 3%; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.enrolbutton {
+    border-radius: 50px;
+    background-color:#f8f5da;
+    border:2px solid #f7ec97;
+    color:black;
+    padding: 2% 6%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 130%;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
