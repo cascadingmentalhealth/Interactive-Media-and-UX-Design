@@ -370,7 +370,6 @@ iframe:hover {
 
 .engbtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -565,7 +564,6 @@ iframe:hover {
 
 .matbtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -760,7 +758,6 @@ iframe:hover {
 
 .phybtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -951,7 +948,6 @@ iframe:hover {
 
 .biobtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -1142,7 +1138,6 @@ iframe:hover {
 
 .chembtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -1333,7 +1328,6 @@ iframe:hover {
 
 .enrolbtn:hover {
     background-color:#f5d90a;
-    border: none;
     color: black;
     box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
     transition: ease 0.6s;
@@ -1372,6 +1366,7 @@ iframe:hover {
     justify-content: center;
     align-items: center;
     height: 70vh;
+    margin-bottom: 30%;
 }
 
 .enrolcontainer {
@@ -1382,6 +1377,12 @@ iframe:hover {
     background-color:#f8f5da; 
     border: 3px solid #f5d90a;
     border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+.enrolcontainer:hover {
+    box-shadow: 0px 8px 32px 0px rgba(0,0,0,0.2);
+    transition: ease 0.6s;
 }
 
 .enrolcontainer h2 {
@@ -1390,9 +1391,11 @@ iframe:hover {
   
 .enrolform {
     margin-bottom: 5%; 
+    position: relative;
 }
   
 label {
+    font-weight: bold;
     display: block;
     margin-bottom: 2%;
     font-family: "Rubik", sans-serif;
@@ -1403,21 +1406,29 @@ input[type="email"],
   select {
     width: 100%;
     padding: 3%; 
-    border: 1px solid #ccc;
+    border: 1px solid  #f7ec97;
     border-radius: 3px;
+    cursor: pointer
 }
 
 .enrolbutton {
     border-radius: 50px;
     background-color:#f8f5da;
-    border:2px solid #f7ec97;
+    border:2px solid #f5d90a;
     color:black;
     padding: 2% 6%;
     text-align: center;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
     font-size: 130%;
+    box-shadow: 0px 8px 16px 0px rgba(233, 208, 81, 0.3);
     cursor: pointer;
     display: block;
     margin: 0 auto;
+}
+
+.enrolbutton:hover {
+    background-color:#f5d90a;
+    box-shadow: 0px 8px 28px 0px rgba(233, 208, 81, 0.7);
+    transition: ease 0.6s;
 }
