@@ -35,12 +35,13 @@
 
         <div class="homecontent">
              <h1> UPLIFT your school performance! </h1>
-             <form autocomplete="off" action="/action_page.php">
+             <form id="subjectForm" autocomplete="off" onsubmit="return handleSubmit(event)">
                 <div class="autocomplete">
                   <input id="myInput" type="text" name="Subject" placeholder="Search courses...">
                 </div>
                 <input type="submit">
                 <script src="autocomplete.js"></script>
+                <script src="formHandler.js"></script>
               </form>
             </div>
         </div>
