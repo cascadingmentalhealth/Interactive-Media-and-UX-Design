@@ -1,25 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* media queries */
 
-@media (max-width:430px) {
-    
-    body {
-        font-size: 20%
+@media (max-width: 430px) {
+  
+    header {
+        padding: 0 5%;
     }
 
-    .frame {
-        margin-top: -30%;
+    .navlinks {
+        display: none;
     }
 
-    .homecontent {
-        min-height: 30vh;
+    .dropdown-content {
+        position: relative;
+        min-width: auto;
     }
 
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+
+    .dropdown:hover .navlinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-
 /* ALL: Navigation bar*/
-
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -35,12 +48,12 @@ li, a, button {
 }
 
 header {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 30px 10%;
-    background-color:rgb(26, 26, 26);
-    font-family:"Rubik", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%; 
+    background-color: rgb(26, 26, 26);
+    font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -48,27 +61,33 @@ body {
 }
 
 .navbar {
-    display: inline-block;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
 }
 
 .navlogo {
     cursor: pointer;
     margin-right: auto;
-    height: 150px;
-    margin-top: -8%;
-    padding-bottom: 30px;
+    height: 150px;;
+    padding-bottom: 1%;
 }
 
 .navlinks {
     list-style:none;
-    align-items: center;
     display: flex;
-    padding-left: 100%;
-    margin-top: -26%;
+    align-items: center; 
+    margin-left: 170%;
+    margin-top: 14%;
 }
 
 .navlinks li {
-    padding: 0px 20px;
+    padding: 17% 2%;
+    margin-right: 10px;
+}
+
+.navlinks li:last-child {
+    margin-right: 0;
 }
 
 .navlinks li a {
@@ -122,7 +141,7 @@ button {
     display: none;
     position: absolute;
     background-color:whitesmoke;
-    min-width: 100px;
+    min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -199,7 +218,7 @@ footer img {
 .homecontent {
     padding-left: 22%;
     padding-right: 22%;
-    display: inline-block;
+    display: inline-block; 
     align-items: center;
     min-height: 90vh;
     background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("home2.png");
@@ -215,7 +234,7 @@ footer img {
 
 .autocomplete {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
     margin-left: 29%;
 }
   
