@@ -547,7 +547,7 @@ iframe:hover {
     width: 40%;
     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.28);
     cursor: pointer;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .eng10 {
@@ -565,97 +565,6 @@ iframe:hover {
 .engschedule img:hover {
     box-shadow: 0px 8px 40px 0px rgba(0,0,0,0.35);
     transition: 0.3s ease;
-}
-
-/* ENG: meet the tutors */
-
-.engtutor {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.engtutor img {
-    width: 300px;
-    height: 300px;
-}
-
-.engtinfo {
-    font-family: "Rubik", sans-serif;
-    color: black;
-    font-size: 120%;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-.engt1 {
-    margin-left: 15%;
-    margin-right: 64.38%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.engt1:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.engt1 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.engt2 {
-    margin-left: 40%;
-    margin-right: 39.37%;
-    margin-top: -26.3%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.engt2:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.engt2 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.engt3 {
-    margin-top: -26.3%;
-    margin-left: 65%;
-    margin-right: 14.9%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.engt3:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.engt3 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
 }
 
 /* MATH: body */
@@ -766,97 +675,11 @@ iframe:hover {
     transition: 0.3s ease;
 }
 
-/* MAT: meet the tutors */
-
-.mattutor {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.mattinfo {
-    font-family: "Rubik", sans-serif;
-    color: black;
-    font-size: 120%;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-.matt1 {
-    margin-left: 15%;
-    margin-right: 64.25%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.matt1:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.matt1 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.matt2 {
-    margin-left: 40%;
-    margin-right: 39.3%;
-    margin-top: -26.3%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.matt2:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.matt2 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.matt3 {
-    margin-top: -26.3%;
-    margin-left: 65%;
-    margin-right: 14.26%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.matt3:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.matt3 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
-}
-
 /* PHYSICS: body */
 
 .phybody {
     padding-left: 43%;
-    padding-right: 43.12%;
+    padding-right: 42.8%;
     display: inline-flex;
     align-items: center;
     min-height: 75vh;
@@ -956,97 +779,11 @@ iframe:hover {
     transition: 0.3s ease;
 }
 
-/* PHY: meet the tutors */
-
-.phytutor {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.phytinfo {
-    font-family: "Rubik", sans-serif;
-    color: black;
-    font-size: 120%;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-.phyt1 {
-    margin-left: 15%;
-    margin-right: 64.25%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.phyt1:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.phyt1 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.phyt2 {
-    margin-left: 40%;
-    margin-right: 39.5%;
-    margin-top: -26.3%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.phyt2:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.phyt2 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.phyt3 {
-    margin-top: -26.3%;
-    margin-left: 65%;
-    margin-right: 14.26%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.phyt3:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.phyt3 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
-}
-
 /* BIOLOGY: body */
 
 .biobody {
     padding-left: 43%;
-    padding-right: 43.56%;
+    padding-right: 43.3%;
     display: inline-flex;
     align-items: center;
     min-height: 75vh;
@@ -1146,97 +883,11 @@ iframe:hover {
     transition: 0.3s ease;
 }
 
-/* PHY: meet the tutors */
-
-.biotutor {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.biotinfo {
-    font-family: "Rubik", sans-serif;
-    color: black;
-    font-size: 120%;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-.biot1 {
-    margin-left: 15%;
-    margin-right: 64.53%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.biot1:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.biot1 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.biot2 {
-    margin-left: 40%;
-    margin-right: 39.95%;
-    margin-top: -25.7%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.biot2:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.biot2 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.biot3 {
-    margin-top: -25.7%;
-    margin-left: 65%;
-    margin-right: 14.32%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.biot3:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.biot3 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
-}
-
 /* CHEMISTRY: body */
 
 .chembody {
-    padding-left: 41%;
-    padding-right: 41%;
+    padding-left: 40%;
+    padding-right: 40.8%;
     display: inline-flex;
     align-items: center;
     min-height: 75vh;
@@ -1336,97 +987,166 @@ iframe:hover {
     transition: 0.3s ease;
 }
 
-/* CHEM: meet the tutors */
+/* ECONOMICS: body */
 
-.chemtutor {
-    padding-top: 3%;
+.ecobody {
+    padding-left: 40%;
+    padding-right: 40%;
+    display: inline-flex;
+    align-items: center;
+    min-height: 75vh;
+    background:linear-gradient(rgba(132, 116, 39, 0.586),rgba(0,0,0,0.5)), url("ecohead.jpg");
+    background-position:top;
+    background-size:cover;
+}
+
+.ecobody h1 {
+    font-family: "Rubik", sans-serif;
+    color:#f5d90a;
+    font-size: 340%;
+    text-align: center;
+    margin-top: -30%;
+}
+
+.ecobtn {
+    position:absolute;
+    margin-left: 2.8%;
+    margin-top: 10%;
+    background-color: none;
+    border: 2px solid #f5d90a;
+    color:#f5d90a;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 130%;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(185, 154, 0, 0.2);
+}
+
+.ecobtn:hover {
+    background-color:#f5d90a;
+    color: black;
+    box-shadow: 0px 8px 32px 0px rgba(185, 154, 0, 0.9);
+    transition: ease 0.6s;
+}
+
+/* ECONOMICS: information */
+
+.ecoinfo {
+    background-color: #f7ec97;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.ecointial h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 300%;
+}
+
+.ecointial p {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    text-align: justify;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* ECO: timetable */
+
+.ecoschedule {
+    position: relative;
+    margin-top: 3%;
+}
+
+.ecoschedule h1 {
+    font-family: "Rubik", sans-serif;
+    color:black;
+    font-size: 230%;
+    text-align:center;
     padding-bottom: 3%;
 }
 
-.chemtinfo {
+.ecoschedule img {
+    width: 40%;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.28);
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.eco11 {
+    margin-left: 10%;
+}
+
+.eco12 {
+    margin-left: 1%;
+}
+
+.ecoschedule img:hover {
+    box-shadow: 0px 8px 40px 0px rgba(0,0,0,0.35);
+    transition: 0.3s ease;
+}
+
+
+
+/* ALL COURSE PAGES: meet the tutors */
+
+.tinfo {
     font-family: "Rubik", sans-serif;
     color: black;
     font-size: 120%;
     text-align: center;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
-.chemt1 {
-    margin-left: 15%;
-    margin-right: 64.29%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.tutorcontainer {
+    display: inline-flex;
+    margin-left: 21%;
+}
+
+.t1,
+.t2,
+.t3 {
+    width: 300px;
+    margin-right: 7%; 
+    margin-bottom: 5%;
+    background-color: #f7ec97;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-.chemt1:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
+.t1:hover,
+.t2:hover,
+.t3:hover {
+    box-shadow: 0px 8px 26px 0px rgba(0, 0, 0, 0.4);
     transition: ease 0.3s;
 }
 
-.chemt1 h3 {
+.t1 h3,
+.t2 h3,
+.t3 h3 {
     font-family: "Rubik", sans-serif;
-    color:black;
+    color: black;
     font-size: 170%;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.chemt2 {
-    margin-left: 40%;
-    margin-right: 39.2%;
-    margin-top: -26.5%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.chemt2:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.chemt2 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.chemt3 {
-    margin-top: -26.2%;
-    margin-left: 65%;
-    margin-right: 14.32%;
-    background-color:#f7ec97;
-    margin-bottom: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    cursor: pointer;
-}
-
-.chemt3:hover {
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.4);
-    transition: ease 0.3s;
-}
-
-.chemt3 h3 {
-    font-family: "Rubik", sans-serif;
-    color:black;
-    font-size: 170%;
-    text-align: center;
-    padding-top:3%;
-    padding-bottom: 3%;
+.tutor img {
+    width: 100%; 
+    height: auto; 
 }
 
 /* ENROLMENT: body */
 
 .enrolbody {
-    padding-left: 41%;
-    padding-right: 40.82%;
+    padding-left: 40.7%;
+    padding-right: 40%;
     display: inline-flex;
     align-items: center;
     min-height: 75vh;
