@@ -4,31 +4,85 @@
 
 @media (max-width: 430px) {
   
-    header {
-        padding: 0 5%;
-    }
+    html {
 
-    .navlinks {
-        display: none;
-    }
+        button, li, a, ul {
+            font-size: 90%;
+            padding: 0.5vh 1vh;
+        }
 
-    .dropdown-content {
-        position: relative;
-        min-width: auto;
-    }
+        .navlogo {
+            height: 5vh;
+            margin-top: 2vh;
+        }
 
-    .dropdown:hover .dropdown-content {
-        display: none;
-    }
+        .navlinks {
+            margin-left: 5vh;
+            margin-top: -0.7vh;
+        }
+        
+        .homecontent {
+            min-height: 30vh;
+        }
 
-    .dropdown:hover .navlinks {
-        display: flex;
-        flex-direction: column;
-    }
+        .homecontent h1 {
+            margin-top: 10vh;
+            font-size: 120%;
+        }
 
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
+        .dropdown-content {
+            min-width: 0.5vh;
+        }
+
+        input {
+            padding: 0.2vh;
+            font-size: 60%; 
+            margin-left: -2vh;
+        }
+
+        .homecontainer {
+            font-size: 60%;
+            margin-top: 2vh;
+            margin-right: 24vh;
+            margin-left: 2vh;
+        }
+
+        iframe {
+            width: 17vh;
+            height: 17vh;
+            margin-left: 23vh;
+            margin-top: -27%;
+        }
+
+        .homeimage {
+            display: none;
+        }
+
+        .homesection h1 {
+            font-size: 120%;
+            margin-left: 2vh;
+            text-align: center;
+        }
+
+        .homesection1 h1 {
+            font-size: 100%;
+            margin-left: 2vh;
+        }
+
+        .homesection1 p {
+            font-size:60%;
+            margin-left: 2vh;
+        }
+
+        footer h1, footer h2, footer h3 {
+            font-size: 30%;
+        }
+
+        footer img {
+            height: 2vh;
+            width: 2vh;
+        }
+
     }
 }
 
@@ -518,6 +572,11 @@ iframe:hover {
 .engtutor {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.engtutor img {
+    width: 300px;
+    height: 300px;
 }
 
 .engtinfo {
