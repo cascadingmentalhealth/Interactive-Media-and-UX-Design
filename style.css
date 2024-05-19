@@ -6,6 +6,8 @@
   
     html {
 
+        /* ALL */
+
         button, li, a, ul {
             font-size: 90%;
             padding: 0.5vh 1vh;
@@ -21,6 +23,8 @@
             margin-top: -0.7vh;
         }
         
+        /* HOME */
+
         .homecontent {
             min-height: 30vh;
         }
@@ -76,6 +80,8 @@
             margin-right: 2vh;
         }
 
+        /* ALL */
+
         footer h1, footer h2, footer h3 {
             font-size: 30%;
         }
@@ -85,6 +91,220 @@
             width: 2vh;
         }
 
+        /* ENGlISH */
+
+        .engbody {
+            min-height: 30vh;
+        }
+
+        .engbody h1 {
+            font-size: 120%;
+        }
+
+        .engbtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .engintial h1 {
+            font-size: 100%;
+        }
+
+        .engintial p {
+            font-size: 80%;
+        }
+
+        .engschedule h1 {
+            font-size: 100%;
+        }
+
+        /* MATH */
+
+        .matbody {
+            min-height: 30vh;
+        }
+
+        .matbody h1 {
+            font-size: 120%;
+        }
+
+        .matbtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .matintial h1 {
+            font-size: 100%;
+        }
+
+        .matintial p {
+            font-size: 80%;
+        }
+
+        .matschedule h1 {
+            font-size: 100%;
+        }
+
+        /* PHYSICS */
+
+        .phybody {
+            min-height: 30vh;
+        }
+
+        .phybody h1 {
+            font-size: 120%;
+        }
+
+        .phybtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .phyintial h1 {
+            font-size: 100%;
+        }
+
+        .phyintial p {
+            font-size: 80%;
+        }
+
+        .physchedule h1 {
+            font-size: 100%;
+        }
+
+        /* BIOLOGY */
+
+        .biobody {
+            min-height: 30vh;
+        }
+
+        .biobody h1 {
+            font-size: 120%;
+        }
+
+        .biobtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .biointial h1 {
+            font-size: 100%;
+        }
+
+        .biointial p {
+            font-size: 80%;
+        }
+
+        .bioschedule h1 {
+            font-size: 100%;
+        }
+
+        /* CHEMISTRY */
+
+        .chembody {
+            min-height: 30vh;
+        }
+
+        .chembody h1 {
+            font-size: 120%;
+        }
+
+        .chembtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .chemintial h1 {
+            font-size: 100%;
+        }
+
+        .chemintial p {
+            font-size: 80%;
+        }
+
+        .chemschedule h1 {
+            font-size: 100%;
+        }
+
+        /* ECONOMCIS */
+
+        .ecobody {
+            min-height: 30vh;
+        }
+
+        .ecobody h1 {
+            font-size: 120%;
+        }
+
+        .ecobtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .ecointial h1 {
+            font-size: 100%;
+        }
+
+        .ecointial p {
+            font-size: 80%;
+        }
+
+        .ecoschedule h1 {
+            font-size: 100%;
+        }
+
+        /* ALL COURSES */
+
+        .tinfo h1 {
+            font-size: 100%;
+        }
+
+        .tutorcontainer {
+            display: inline-block;
+        }
+
+        .t1,
+        .t2,
+        .t3 {
+            width: 200px;
+            font-size: 80%;
+            margin-left: 15%;
+            margin-bottom: 30%;
+        }
+
+        /* ENROLMENT */
+
+        .enrolbody {
+            min-height: 30vh;
+            padding-right: 38%;
+            padding-left: 38.3%;
+        }
+
+        .enrolbody h1 {
+            font-size: 120%;
+        }
+
+        .enrolbtn {
+            font-size: 80%;
+            padding: 0.2vh 0.4vh;
+        }
+
+        .enrolintial h1 {
+            font-size: 100%;
+        }
+
+        .enrolintial p {
+            font-size: 80%;
+        }
+
+        .enrolmain {
+            margin-bottom: 5%;
+        }
+
+        .enrolcontainer {
+            width: 80%;
+            margin-top: 5%;
+        }
     }
 }
 
