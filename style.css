@@ -62,6 +62,10 @@
             display: none;
         }
 
+        .homevid video {
+            max-width: 90%;
+        }
+
         .homesection h1 {
             font-size: 120%;
             margin-left: 2vh;
