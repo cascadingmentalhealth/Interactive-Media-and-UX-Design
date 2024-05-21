@@ -83,12 +83,9 @@ autocomplete(document.getElementById("myInput"), subjects);
 
 function handleSubmit(event) {
     event.preventDefault();
-    // Get the input value
     var inputValue = document.getElementById("myInput").value.trim();
     
-    // Check if the input is a valid subject
     if (inputValue && subjectPages.hasOwnProperty(inputValue)) {
-        // Redirect to the corresponding subject page
         window.location.href = subjectPages[inputValue];
     } else {
         // Redirect to the homepage
